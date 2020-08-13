@@ -1865,7 +1865,7 @@ address { font-style: italic; }
 	background:rgba(55,53,66,0.80);
 }
 .tg-counter + .tg-counter{ margin:0 0 0 30px;}
-.tg-counter h3{
+.tg-counter h3, #days, #minutes, #hours, #secounds{
 	margin:0;
 	color:#fff;
 	font-size:60px;

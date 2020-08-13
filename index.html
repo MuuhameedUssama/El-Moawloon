@@ -433,12 +433,62 @@
 										<div class="tg-description">
 											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minimam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 										</div>
-										<div class="tg-counters">
-											<div class="tg-counter tg-days"></div>
-											<div class="tg-counter tg-hours"></div>
-											<div class="tg-counter tg-minutes"></div>
-											<div class="tg-counter tg-seconds"></div>
+										<div class="tg-counters" id="TrTimer">
+											<div id="days" class="tg-counter tg-days"></div>
+											<div id="hours" class="tg-counter tg-hours"></div>
+											<div id="minutes" class="tg-counter tg-minutes"></div>
+											<div id="secounds" class="tg-counter tg-seconds"></div>
 										</div>
+										<input id="myLocalDate" type="datetime-local">
+										<p type="text" id="ShowDate"></p>
+										<script type="text/javascript">
+											function CountDown() {
+												var x = document.getElementById("myLocalDate");
+												var currentVal = x.value;
+												document.getElementById("ShowDate").innerHTML = currentVal;
+
+												var now = new Date();
+												var eventDate = new Date(currentVal);
+
+												var CurrentTime = now.getTime();
+												var evenTime = eventDate.getTime();
+
+												var remTime = evenTime - CurrentTime;
+												var now = new Date();
+												if (eventDate < now) {
+													document.getElementById("days").innerHTML = 0;
+													document.getElementById("hours").innerHTML = 0;
+													document.getElementById("minutes").innerHTML = 0;
+													document.getElementById("secounds").innerHTML = 0;
+													document.getElementById("TrTimer").style.display = "none";
+													document.getElementById("TrTimer2").style.display = "none";
+													document.getElementById("HyberText").innerHTML = "Count Done!";
+
+												} else {
+
+													var s = Math.floor(remTime / 1000);
+													var m = Math.floor(s / 60);
+													var h = Math.floor(m / 60);
+													var d = Math.floor(h / 24);
+
+													h %= 24;
+													m %= 60;
+													s %= 60;
+
+													h = (h < 10) ? "0" + h : h;
+													m = (m < 10) ? "0" + m : m;
+													s = (s < 10) ? "0" + s : s;
+
+													document.getElementById("days").innerHTML = '<h3>'+d+'</h3><h4>Day'+(d>1?'s':''),'</h4>';
+													document.getElementById("hours").innerHTML = '<h3>'+h+'</h3><h4>Hour'+(h>1?'s':''),'</h4>';
+													document.getElementById("minutes").innerHTML = '<h3>'+m+'</h3><h4>Minute'+(m>1?'s':''),'</h4>';
+													document.getElementById("secounds").innerHTML = '<h3>'+s+'</h3><h4>Second'+(s>1?'s':''),'</h4>';
+													setTimeout(CountDown, 1000);
+												}
+
+											}
+											CountDown();
+										</script>
 										<div class="tg-btnbox">
 											<a class="tg-btn" href="#"><span>read more</span></a>
 											<a class="tg-btn" href="#"><span>book my ticket</span></a>
