@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Test</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<style>
+    body{        
+        background-image: url("images/bg-pattran3.jpg")
+    }
+    h1{
+        text-align: center;
+        color:red;
+    }
+    h2{
+        text-align: right;
+        color:blue;
+    }
+    #FontSizeH2{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        text-shadow: 2px 2px green;
+    }
+    button{
+        font-size: 25px;
+        border-radius: 15px;
+        background-color: indigo;
+        font-family: Elephant;
+        padding: 15px;
+        margin-left: 15px;
+        
+    }
+</style>
+<script>
+    function MyFunction(){
+        var X = document.getElementById("FontSizeH2")
+        swal("Muuhameed Ussama!", "Eng. Bavly", "success");
+        X.style.fontSize="45px";       
+    }
+</script>
+<body>
+    <h1>Font Size H1</h1>
+    <h2>Font Size H2</h2>
+    <h2 id="FontSizeH2">Font Size H2</h2>
+    <h2>Font Size H2</h2>
+    <h3>VS-Code Click <a href="https://code.visualstudio.com/download">Here</a>  To Download</h3>
+   <center><button onclick="MyFunction()"> Click Here </button></center>
+    
+</body>
+
+</html>
