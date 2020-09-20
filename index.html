@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">`	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/transitions.css">
@@ -20,8 +20,11 @@
 	<link rel="stylesheet" href="css/customScrollbar.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/main.css">
+			<link rel=stylesheet href=style2.css>
 	<link rel="stylesheet" href="css/color.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 	<style>
 		.site-caption h3{
@@ -54,72 +57,156 @@
 		<!--************************************
 				Mobile Menu Start
 		*************************************-->
-		<div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
-			<span id="tg-close" class="tg-close fa fa-close"></span>
-			<div class="tg-colhalf">
-				<ul>
-					<li class="active menu-item-has-children">
-						<a href="#">Main</a>
-						<ul class="tg-dropdown-menu">
-							<li class="active"><a href="index-2.html">home1</a></li>
-							<li><a href="index2.html">home2</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="#">team</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="playergrid-v1.html">playergrid-v1</a></li>
-							<li><a href="playergrid-v2.html">playergrid-v2</a></li>
-							<li><a href="playerdetail.html">playergrid detail</a></li>
-						</ul>
-					</li>
-					<li><a href="buyticket.html">Buy Tickets</a></li>
-					<li class="menu-item-has-children">
-						<a href="#">Match Results</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="matchresult.html">match result</a></li>
-							<li><a href="matchresultdetail.html">match result detail</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="tg-colhalf">
-				<ul>
-					<li class="menu-item-has-children">
-						<a href="#">fixtures</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="fixtures.html">fixtures</a></li>
-							<li><a href="fixturedetail.html">fixture detail</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="#">pro soccer media</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="soccermedia-1.html">pro soccer media1</a></li>
-							<li><a href="soccermedia-2.html">pro soccer media2</a></li>
-						</ul>
-					</li>
-					<li><a href="contactus.html">Contact</a></li>
-					<li class="menu-item-has-children">
-						<a href="#"><i class=" fa fa-navicon"></i></a>
+		<div id="tg-sidenav" class="tg-sidenav">
+			<div id="tg-navscrollbar" class="tg-navscrollbar">
+				<strong class="tg-logo">
+					<a href="index-2.html"><img src="images/logo.png" alt="image description"></a>
+				</strong>
+				<nav id="tg-nav" class="tg-nav">
+					<div id="tg-navigation" class="tg-navigation">
 						<ul>
-							<li><a href="aboutus.html">about us</a></li>
-							<li><a href="shoplist.html">shop list</a></li>
-							<li><a href="shopgrid.html">shop grid</a></li>
-							<li><a href="productsingle.html">shop detail</a></li>
-							<li><a href="bloglist.html">blog list</a></li>
-							<li><a href="bloggrid.html">blog grid</a></li>
-							<li><a href="blogdetail.html">blog detail</a></li>
-							<li><a href="404.html">404 error</a></li>
-							<li><a href="comming-soon.html">comming soon</a></li>
+							<li class="tg-hasdropdown">
+								<a href="#">Main</a>
+								<ul>
+									<li><a href="index-2.html">home1</a></li>
+									<li><a href="index2.html">home2</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">Team</a>
+								<ul>
+									<li><a href="playergrid-v1.html">playergrid-v1</a></li>
+									<li><a href="playergrid-v2.html">playergrid-v2</a></li>
+									<li><a href="playerdetail.html">playergrid-detail</a></li>
+								</ul>
+							</li>
+							<li><a href="buyticket.html">Tickets</a></li>
+							<li class="tg-hasdropdown">
+								<a href="#">Match Results</a>
+								<ul>
+									<li><a href="matchresult.html">match results</a></li>
+									<li><a href="matchresultdetail.html">match results detail</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">News</a>
+								<ul>
+									<li><a href="fixtures.html">News</a></li>
+									<li><a href="fixturedetail.html">fixture detail</a></li>
+								</ul>
+							</li>
+							<li><a href="PointsTable.html">Points Table</a></li>
+							<li class="tg-hasdropdown">
+								<a href="#">pro soccer media</a>
+								<ul>
+									<li><a href="soccermedia-1.html">pro soccer media one</a></li>
+									<li><a href="soccermedia-2.html">pro soccer media two</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">Shop</a>
+								<ul>
+									<li><a href="shopgrid.html">shop grid</a></li>
+									<li><a href="shoplist.html">shop list</a></li>
+									<li><a href="productsingle.html">product detail</a></li>
+								</ul>
+							</li>
+							<li><a href="contactus.html">Contact</a></li>
+							<li class="tg-hasdropdown tg-cart">
+								<a href="#"><em data-product-count="4">cart</em></a>
+								<ul class="tg-minicart">
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-04.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-05.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-06.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-07.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<span class="tg-minicarttotal">Price: $23</span>
+										<a class="tg-btn" href="#"><span>checkout</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">pages</a>
+								<ul>
+									<li><a href="aboutus.html">about us</a></li>
+									<li><a href="404.html">404</a></li>
+									<li><a href="comming-soon.html">comming soon</a></li>
+								</ul>
+							</li>
 						</ul>
-					</li>
+					</div>
+				</nav>
+				<ul class="tg-socialiconslarge">
+					<li class="tg-facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+					<li class="tg-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li class="tg-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li class="tg-googleplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li class="tg-dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li class="tg-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
 				</ul>
+				<div class="tg-playerbox">
+					<div class="tg-playcontent">
+						<a class="tg-theme-tag" href="#">Player of the week</a>
+						<h3><a href="#">Hustlin’ Owls</a></h3>
+						<span class="tg-stars"><span></span></span>
+						<ul class="tg-socialicons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--************************************
 				Mobile Menu End
 		*************************************-->
+		<!----------------------------------------------------------------------------------------------------------------------------->
 		<!--************************************
 				Header Start
 		*************************************-->
@@ -129,7 +216,7 @@
 					<div class="row">
 						<div class="tg-topbar tg-haslayout">
 							<nav id="tg-topaddnav" class="tg-topaddnav">
-								<div class="navbar-header">
+								<div class="navbar-header" >
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-addnavigationm-mobile">
 										<i class="fa fa-arrow-right"></i>
 									</button>
@@ -140,60 +227,6 @@
 											<ul>
 												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li>
 												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
-												<li>
-													<div class="tg-cart">
-														<a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown"
-															data-toggle="dropdown">
-															<i class="fa fa-shopping-cart"></i>
-														</a>
-														<div class="tg-cartcontent dropdown-menu" aria-labelledby="tg-cartdropdown">
-															<ul>
-																<li>
-																	<figure>
-																		<a href="#">
-																			<img src="images/thumbnails/img-01.jpg" alt="image description">
-																		</a>
-																	</figure>
-																	<div class="tg-product-detail">
-																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-																		<span class="tg-price">Price: $23</span>
-																		<a class="tg-delete" href="#"></a>
-																	</div>
-																</li>
-																<li>
-																	<figure>
-																		<a href="#">
-																			<img src="images/thumbnails/img-02.jpg" alt="image description">
-																		</a>
-																	</figure>
-																	<div class="tg-product-detail">
-																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-																		<span class="tg-price">Price: $23</span>
-																		<a class="tg-delete" href="#"></a>
-																	</div>
-																</li>
-																<li>
-																	<figure>
-																		<a href="#">
-																			<img src="images/thumbnails/img-03.jpg" alt="image description">
-																		</a>
-																	</figure>
-																	<div class="tg-product-detail">
-																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
-																		<span class="tg-price">Price: $23</span>
-																		<a class="tg-delete" href="#"></a>
-																	</div>
-																</li>
-																<li>
-																	<div class="tg-btnbox">
-																		<strong class="tg-carttotal">Total: $134</strong>
-																		<a class="tg-btn" href="#"><span>checkout</span></a>
-																	</div>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</li>
 												<li>
 													<a id="tg-btn-search" href="javascript:void(0)"><i class="fa fa-search"></i></a>
 												</li>
@@ -242,12 +275,12 @@
 								</strong>
 							</div>
 							<div id="tg-navigation" class="tg-navigation">
-								<div class="tg-colhalf">
+								<div class="tg-colhalf ">
                                     <ul>
-                                        <li class="active">
+                                        <li class="active ">
                                             <a href="#" id="Text-Edit" >Main</a>
                                             <ul class="tg-dropdown-menu">
-                                                <li class="active"><a href="index-2.html">home1</a></li>
+                                                <li class="active"><a href="index.html">home1</a></li>
                                                 <li><a href="index2.html">home2</a></li>
                                             </ul>
                                         </li>
@@ -259,12 +292,12 @@
                                                 <li><a href="playerdetail.html">playergrid detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="buyticket.html" id="Text-Edit" >Buy Tickets</a></li>
+                                        <li><a href="buyticket.html" id="Text-Edit" >Tickets</a></li>
                                         <li>
                                             <a href="#" id="Text-Edit" >Match Results</a>
                                             <ul class="tg-dropdown-menu">
                                                 <li><a href="matchresult.html">match result</a></li>
-                                                <li><a href="matchresultdetail.html">match result detail</a></li>
+                                                <li><a href="matchresultdetail.html">match details</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -272,14 +305,14 @@
                                 <div class="tg-colhalf">
                                     <ul>
                                         <li>
-                                            <a href="#"  id="Text-Edit" >fixtures</a>
+                                            <a href="#"  id="Text-Edit" >News</a>
                                             <ul class="tg-dropdown-menu">
-                                                <li><a href="fixtures.html">fixtures</a></li>
-                                                <li><a href="fixturedetail.html">fixture detail</a></li>
+                                                <li><a href="fixtures.html">News</a></li>
+                                                <li><a href="fixturedetail.html">News detail</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#"  id="Text-Edit" >pro soccer media</a>
+                                            <a href="#"  id="Text-Edit" >club media</a>
                                             <ul class="tg-dropdown-menu">
                                                 <li><a href="soccermedia-1.html">pro soccer media1</a></li>
                                                 <li><a href="soccermedia-2.html">pro soccer media2</a></li>
@@ -316,44 +349,21 @@
 		*************************************-->
 		<div class="tg-sliderbox">
 			<div class="tg-imglayer">
-				<img src="images/bg-pattran5.jpg" alt="image desctription">
+				<img src="bg-pattran3.jpg" alt="image desctription">
 			</div>
 			<div id="tg-home-slider" class="tg-home-slider tg-haslayout">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
+					<div class="swiper-slide11">
 						<div class="container">
 							<div class="tg-slider-content floatingText">
-								<h1>Al- Mokawloon  </h1>
-								<h1> El Arab<span>CLUB</span></h1>
+								<h1 style="font-family: 'Cinzel', serif;">Al- Mokawloon  </h1>
+								<h1 style="font-family: 'Cinzel', serif;"> El Arab<span>CLUB</span></h1>
 								<div class="tg-btnbox">
 									<h2>from june 27</h2>
-									<a class="tg-btn" href="#"><span>read more</span></a>
-									<a class="tg-btn" href="#"><span>book my ticket</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="tg-slider-content floatingText">
-								<h1>Al- Mokawloon  </h1>
-								<h1> El Arab<span>CLUB</span></h1>
-								<div class="tg-btnbox">
-									<h2>from june 27</h2>
-									<a class="tg-btn" href="#"><span>read more</span></a>
-									<a class="tg-btn" href="#"><span>book my ticket</span></a>
 								</div>
 							</div>
 						</div>
 					</div>					
-				</div>
-				<div class="tg-btn-next">
-					<span>next</span>
-					<span class="fa fa-angle-down"></span>
-				</div>
-				<div class="tg-btn-prev">
-					<span>prev</span>
-					<span class="fa fa-angle-down"></span>
 				</div>
 			</div>
 		</div>
@@ -365,32 +375,58 @@
 		*************************************-->
 		<main id="tg-main" class="tg-main tg-haslayout">
 			<!--************************************
-					About Us Start
+					Blog Start
 			*************************************-->
-			<section class="tg-main-section tg-haslayout">
+			<section class="tg-main-section tg-haslayout" style="height:650px; background-image: url();">
 				<div class="container">
 					<div class="tg-section-name">
-						<h2>About pro soccer</h2>
+						<h2>Latest news</h2>
 					</div>
 					<div class="col-sm-11 col-xs-11 pull-right">
 						<div class="row">
-							<div class="tg-aboutussection">
+							<div class="tg-blogpost">
 								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12">
-										<figure>
-											<img src="images/img-01.jpg" alt="image description">
-										</figure>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12">
-										<div class="tg-contentbox">
-											<div class="tg-section-heading"><h2>consectetur adipisicing elit sed do eiusmid tempor incididunt labore</h2></div>
+									<div class="col-sm-6 col-xs-12">
+										<article class="tg-post">
+											<figure class="tg-postimg">
+												<a href="#">
+													<img src="images/blog/img-01.jpg" alt="image description">
+												</a>
+												<figcaption>
+													<ul class="tg-postmetadata">
+														<li><a href="#">by admin</a></li>
+														<li><a href="#">04 comments</a></li>
+														<li><a href="#">lifestyle</a></li>
+													</ul>
+												</figcaption>
+											</figure>
+											<div class="tg-posttitle"><h3><a href="#">dipisicing elit sed do eiusmod tempor indunt</a></h3></div>
 											<div class="tg-description">
-												<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utia labore et dolore magna aliqua enim ad minim veniam quistrud on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu fugiat nulla pariatur cepteur sint occaecat.</p>
+												<p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
 											</div>
-											<div class="tg-btnbox">
-												<a class="tg-btn-responsive" href="#"><span>read more</span></a>
+											<a class="tg-btn" href="#">Read more</a>
+										</article>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<article class="tg-post">
+											<figure class="tg-postimg">
+												<a href="#">
+													<img src="images/blog/img-02.jpg" alt="image description">
+												</a>
+												<figcaption>
+													<ul class="tg-postmetadata">
+														<li><a href="#">by admin</a></li>
+														<li><a href="#">04 comments</a></li>
+														<li><a href="#">lifestyle</a></li>
+													</ul>
+												</figcaption>
+											</figure>
+											<div class="tg-posttitle"><h3><a href="#">dipisicing elit sed do eiusmod tempor indunt</a></h3></div>
+											<div class="tg-description">
+												<p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
 											</div>
-										</div>
+											<a class="tg-btn" href="#"><span>read more</span></a>
+										</article>
 									</div>
 								</div>
 							</div>
@@ -399,7 +435,7 @@
 				</div>
 			</section>
 			<!--************************************
-					About Us End
+					Blog End
 			*************************************-->
 			<!--************************************
 					Upcoming Match Start
@@ -982,7 +1018,7 @@
 			<section class="tg-main-section tg-haslayout">
 				<div class="container">
 					<div class="tg-section-name">
-						<h2>fixtures</h2>
+						<h2>News</h2>
 					</div>
 					<div class="col-sm-11 col-xs-11 pull-right">
 						<div class="row">
@@ -1158,7 +1194,7 @@
 			*************************************-->
 			<!--************************************
 					Video Start
-			*************************************-->
+			*************************************
 			<section class="tg-videobox tg-haslayout">
 				<figure>
 					<img src="images/bg-video.jpg" alt="image description">
@@ -1167,332 +1203,91 @@
 						<h2>accusantium doloremque lauda totam rem aperiam ipsa</h2>
 					</figcaption>
 				</figure>
-			</section>
+			</section>-->
 			<!--************************************
 					Video End
 			*************************************-->
 			<!--************************************
-					Top Rated Player Start
-			*************************************-->
-			<section class="tg-main-section tg-haslayout">
-				<div class="container">
-					<div class="tg-section-name">
-						<h2>top Rated Player</h2>
-					</div>
-					<div class="col-sm-11 col-xs-11 pull-right">
-						<div class="row">
-							<div class="tg-topratedplayer tg-haslayout">
-								<div class="row">
-									<div class="col-md-7 col-sm-12 col-xs-12">
-										<div id="tg-playerscrollbar" class="tg-players tg-playerscrollbar">
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"	></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-01.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"	></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-02.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"	></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-03.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"	></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-01.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"	></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-02.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-											<div class="tg-player">
-												<div class="col-sm-6 col-xs-6 pull-right">
-													<div class="tg-playcontent">
-														<a class="tg-theme-tag" href="#">SWEEPER</a>
-														<h3><a href="#">Hustlin’ Owls</a></h3>
-														<span class="tg-stars"><span></span></span>
-														<div class="tg-description">
-															<p>Incididunt utia labore et dolore siti magna aliqua adinim lipat</p>
-														</div>
-														<ul class="tg-socialicons">
-															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-															<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-6 col-xs-6">
-													<figure>
-														<a href="#">
-															<img src="images/player/img-03.png" alt="image description">
-														</a>
-													</figure>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-12 col-xs-12">
-										<div class="tg-contentbox">
-											<div class="tg-section-heading"><h2>consectetur adipisicing elit sed do eiusmid tempor incididunt labore</h2></div>
-											<div class="tg-description">
-												<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt utia labore et dolore magna aliqua enim ad minim veniam quistrud on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu fugiat nulla pariatur cepteur sint occaecat.</p>
-											</div>
-											<div class="tg-btnbox">
-												<a class="tg-btn-responsive" href="#"><span>view all</span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--************************************
-					Top Rated Player End
-			*************************************-->
-			<!--************************************
 					Points Table Start
 			*************************************-->
-			<section class=" tg-haslayout tg-bgstyletwo">
-				<div class="tg-bgboxone"></div>
-				<div class="tg-bgboxtwo"></div>
-				<div class="tg-bgpattrant">
-					<div class="container">
-						<div class="row">
-							<div class="tg-pointstablewrapper">
-								<div class="col-sm-8 col-xs-12">
-									<div class="tg-pointstable">
-										<div class="tg-section-heading"><h2>points table</h2></div>
-										<div id="tg-pointstable-slider" class="tg-pointstable-slider">
-											<div class="swiper-wrapper">
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Red Wolves</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Big jaw lion</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Red Wolves</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Red Wolves</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Big jaw lion</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Pink Dragons</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-												<div class="swiper-slide">
-													<div class="tg-pointtable">
-														<div class="tg-box">Red Wolves</div>
-														<div class="tg-box">w 1</div>
-														<div class="tg-box">d 0</div>
-														<div class="tg-box">l 1</div>
-														<div class="tg-box">pt 2</div>
-													</div>
-												</div>
-											</div>
-											<div class="tg-themebtnnext"><span class="fa fa-angle-down"></span></div>
-											<div class="tg-themebtnprev"><span class="fa fa-angle-up"></span></div>
-										</div>
-										<div class="tg-btnbox">
-											<a class="tg-btn" href="#"><span>view all</span></a>
-										</div>
-									</div>
+			<section class=matchSchedule>
+				<div class=container>
+					<div class=row>
+						<div class="matchSchedule_details row">
+							<div class=match_next>
+								<div class="wrap_match_next right-triangle">
+									<div class=right-padding><h4 class=headline03>Points table</h4>
+		
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
 								</div>
-								<div class="col-sm-4 col-xs-12 hidden-xs">
-									<figure>
-										<img src="images/img-03.png" alt="image description">
-									</figure>
+							</div>
+							<div class=match_versus-wrap>
+								<div class=wrap_match-innerdetails>
+									<ul class="point_table scrollable">
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">1</div>
+												<div class="headline01 largepoint">FC Silver Bullets</div>
+												<div class="headline01 smallpoint row row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">2</div>
+												<div class="headline01 largepoint">FC Spinning Slammers</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">3</div>
+												<div class="headline01 largepoint">FC Crimson Executioners</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">4</div>
+												<div class="headline01 largepoint">FC Shaolin Robots</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">5</div>
+												<div class="headline01 largepoint">FC Silent Xpress</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">6</div>
+												<div class="headline01 largepoint">FC Dark Scorpions</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">7</div>
+												<div class="headline01 largepoint">FC Cyborg Snakes</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">8</div>
+												<div class="headline01 largepoint">FC Skull Killers</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>10</span></div>
+											</div>
+										</li>
+										<li class=clearfix>
+											<div class=subPoint_table>
+												<div class="headline01 smallpoint">1</div>
+												<div class="headline01 largepoint">FC Reptile Kickers</div>
+												<div class="headline01 smallpoint row"><span>p</span><span>11</span></div>
+											</div>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -1502,69 +1297,7 @@
 			<!--************************************
 					Points Table End
 			*************************************-->
-			<!--************************************
-					Blog Start
-			*************************************-->
-			<section class="tg-main-section tg-haslayout">
-				<div class="container">
-					<div class="tg-section-name">
-						<h2>Latest blog / news</h2>
-					</div>
-					<div class="col-sm-11 col-xs-11 pull-right">
-						<div class="row">
-							<div class="tg-blogpost">
-								<div class="row">
-									<div class="col-sm-6 col-xs-12">
-										<article class="tg-post">
-											<figure class="tg-postimg">
-												<a href="#">
-													<img src="images/blog/img-01.jpg" alt="image description">
-												</a>
-												<figcaption>
-													<ul class="tg-postmetadata">
-														<li><a href="#">by admin</a></li>
-														<li><a href="#">04 comments</a></li>
-														<li><a href="#">lifestyle</a></li>
-													</ul>
-												</figcaption>
-											</figure>
-											<div class="tg-posttitle"><h3><a href="#">dipisicing elit sed do eiusmod tempor indunt</a></h3></div>
-											<div class="tg-description">
-												<p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
-											</div>
-											<a class="tg-btn" href="#">Read more</a>
-										</article>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<article class="tg-post">
-											<figure class="tg-postimg">
-												<a href="#">
-													<img src="images/blog/img-02.jpg" alt="image description">
-												</a>
-												<figcaption>
-													<ul class="tg-postmetadata">
-														<li><a href="#">by admin</a></li>
-														<li><a href="#">04 comments</a></li>
-														<li><a href="#">lifestyle</a></li>
-													</ul>
-												</figcaption>
-											</figure>
-											<div class="tg-posttitle"><h3><a href="#">dipisicing elit sed do eiusmod tempor indunt</a></h3></div>
-											<div class="tg-description">
-												<p>Consectetur adipisicing elit sed do eiusmod temport incididunt utia labore et dolore magna aliqua enima ad minim veniam quistrud on ullamco laboris nisiut aliquip exea commodo consequat.</p>
-											</div>
-											<a class="tg-btn" href="#"><span>read more</span></a>
-										</article>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--************************************
-					Blog End
-			*************************************-->
+			
 		</main>
 		<!--************************************
 				Main End
@@ -1573,134 +1306,6 @@
 				Footer Start
 		*************************************-->
 		<footer id="tg-footer" class="tg-footer tg-haslayout">
-			<div class="tg-haslayout tg-footerinfobox">
-				<div class="tg-bgboxone"></div>
-				<div class="tg-bgboxtwo"></div>
-				<div class="tg-footerinfo">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="tg-footercol">
-									<div class="tg-posttitle">
-										<h3>signup newsletter</h3>
-									</div>
-									<div class="tg-description">
-										<p>Adipisicing elit, sed do eiusmod tempor incidunta utiai labore et dolore magna si aliqua quis.</p>
-									</div>
-									<form class="tg-form-newsletter">
-										<fieldset>
-											<div class="form-group">
-												<input type="email" class="form-control" name="email" placeholder="Email">
-											</div>
-											<button class="tg-btn" type="submit">signup</button>
-										</fieldset>
-									</form>
-									<div class="tg-posttitle">
-										<h3>popular tags</h3>
-									</div>
-									<div class="tg-tags">
-										<a class="tg-tag" href="#">fashion</a>
-										<a class="tg-tag" href="#">travel</a>
-										<a class="tg-tag" href="#">blog</a>
-										<a class="tg-tag" href="#">sports</a>
-										<a class="tg-tag" href="#">magazine</a>
-										<a class="tg-tag" href="#">ui</a>
-										<a class="tg-tag" href="#">tech</a>
-										<a class="tg-tag" href="#">fun time</a>
-										<a class="tg-tag" href="#">soccer</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="tg-footercol">
-									<div class="tg-posttitle">
-										<h3>Top products</h3>
-									</div>
-									<div class="tg-toprated">
-										<ul>
-											<li>
-												<figure>
-													<a href="#">
-														<img src="images/thumbnails/img-04.jpg" alt="image description">
-													</a>
-												</figure>
-												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
-													<span class="tg-price">Price: $67</span>
-												</div>
-											</li>
-											<li>
-												<figure>
-													<a href="#">
-														<img src="images/thumbnails/img-05.jpg" alt="image description">
-													</a>
-												</figure>
-												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
-													<span class="tg-price">Price: $67</span>
-												</div>
-											</li>
-											<li>
-												<figure>
-													<a href="#">
-														<img src="images/thumbnails/img-06.jpg" alt="image description">
-													</a>
-												</figure>
-												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
-													<span class="tg-price">Price: $67</span>
-												</div>
-											</li>
-											<li>
-												<figure>
-													<a href="#">
-														<img src="images/thumbnails/img-07.jpg" alt="image description">
-													</a>
-												</figure>
-												<div class="tg-productcontent">
-													<h4><a href="#">Smooth 3-Stripes Scarf</a></h4><span class="tg-stars"><span></span></span>
-													<span class="tg-price">Price: $67</span>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="tg-footercol">
-									<div class="tg-haslayout">
-										<strong class="tg-logo">
-											<a href="#">
-												<img src="images/logo2.png" alt="image description">
-											</a>
-										</strong>
-									</div>
-									<div class="tg-description">
-										<p>Consectetur adipisicing elit sedtado eiusmod dunt ut labore et dolore magna aliqua enim minim veniami quis nostrud.</p>
-									</div>
-									<ul class="tg-contactinfo">
-										<li>
-											<i class="fa fa-home"></i>
-											<address>123 Eccles Old Road, New Salford Road London, Uk, M6 7AF</address>
-										</li>
-										<li>
-											<i class="fa fa-envelope-o"></i>
-											<a href="info%40domain.html">info@domain.com</a>
-										</li>
-										<li>
-											<i class="fa fa-phone"></i>
-											<span>+44 123 456 788 - 9</span>
-										</li>
-									</ul>
-									<div class="tg-haslayout">
-										<a class="tg-btn" href="#">read more</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="tg-footerbar">
 				<div class="container">
 					<span class="tg-copyright"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></span>
@@ -1708,7 +1313,7 @@
 						<ul>
 							<li><a href="#">Main</a></li>
 							<li><a href="#">Team</a></li>
-							<li><a href="#">Buy Tickets</a></li>
+							<li><a href="#">Tickets</a></li>
 							<li><a href="#">Match Results</a></li>
 							<li><a href="#">Upcoming Matches</a></li>
 							<li><a href="#">Shop</a></li>
