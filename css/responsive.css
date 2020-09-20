@@ -512,6 +512,7 @@
 		display:none;
 		position:relative;
 		padding:0 0 0 20px;
+		
 	}
 	.tg-sidenav .tg-nav ul li.tg-hasdropdown ul > li.tg-hasdropdown > ul:before,
 	.tg-sidenav .tg-nav ul li.tg-hasdropdown > ul:before{ display:none;}
