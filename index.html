@@ -52,69 +52,169 @@
 		<!--************************************
 				Mobile Menu Start
 		*************************************-->
-		<div id="tg-navigationm-mobile" class="tg-navigationm-mobile tg-navigation collapse navbar-collapse">
-			<span id="tg-close" class="tg-close fa fa-close"></span>
-			<div class="tg-colhalf">
-				<ul>
-					<li class="active menu-item-has-children">
-						<a href="#">Main</a>
-						<ul class="tg-dropdown-menu">
-							<li class="active"><a href="index-2.html">home1</a></li>
-							<li><a href="index2.html">home2</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="#">team</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="playergrid-v1.html">playergrid-v1</a></li>
-							<li><a href="playergrid-v2.html">playergrid-v2</a></li>
-							<li><a href="playerdetail.html">playergrid detail</a></li>
-						</ul>
-					</li>
-					<li><a href="buyticket.html">Buy Tickets</a></li>
-					<li class="menu-item-has-children">
-						<a href="#">Match Results</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="matchresult.html">match result</a></li>
-							<li><a href="matchresultdetail.html">match result detail</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-			<div class="tg-colhalf">
-				<ul>
-					<li class="menu-item-has-children">
-						<a href="#">fixtures</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="fixtures.html">fixtures</a></li>
-							<li><a href="fixturedetail.html">fixture detail</a></li>
-						</ul>
-					</li>
-					<li class="menu-item-has-children">
-						<a href="#">pro soccer media</a>
-						<ul class="tg-dropdown-menu">
-							<li><a href="soccermedia-1.html">pro soccer media1</a></li>
-							<li><a href="soccermedia-2.html">pro soccer media2</a></li>
-						</ul>
-					</li>
-					<li><a href="contactus.html">Contact</a></li>
-					<li class="menu-item-has-children">
-						<a href="#"><i class=" fa fa-navicon"></i></a>
+		
+		<!--************************************
+				SideBar Navigation Start
+		*************************************-->
+		<div id="tg-sidenav" class="tg-sidenav">
+			<div id="tg-navscrollbar" class="tg-navscrollbar">
+				<strong class="tg-logo">
+					<a href="index-2.html"><img src="images/logo.png" alt="image description"></a>
+				</strong>
+				<nav id="tg-nav" class="tg-nav">
+					<div id="tg-navigation" class="tg-navigation">
 						<ul>
-							<li><a href="aboutus.html">about us</a></li>
-							<li><a href="shoplist.html">shop list</a></li>
-							<li><a href="shopgrid.html">shop grid</a></li>
-							<li><a href="productsingle.html">shop detail</a></li>
-							<li><a href="bloglist.html">blog list</a></li>
-							<li><a href="bloggrid.html">blog grid</a></li>
-							<li><a href="blogdetail.html">blog detail</a></li>
-							<li><a href="404.html">404 error</a></li>
-							<li><a href="comming-soon.html">comming soon</a></li>
+							<li class="tg-hasdropdown">
+								<a href="#">Main</a>
+								<ul>
+									<li><a href="index-2.html">home1</a></li>
+									<li><a href="index2.html">home2</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">Team</a>
+								<ul>
+									<li><a href="playergrid-v1.html">playergrid-v1</a></li>
+									<li><a href="playergrid-v2.html">playergrid-v2</a></li>
+									<li><a href="playerdetail.html">playergrid-detail</a></li>
+								</ul>
+							</li>
+							<li><a href="buyticket.html">Buy Tickets</a></li>
+							<li class="tg-hasdropdown">
+								<a href="#">Match Results</a>
+								<ul>
+									<li><a href="matchresult.html">match results</a></li>
+									<li><a href="matchresultdetail.html">match results detail</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">fixtures</a>
+								<ul>
+									<li><a href="fixtures.html">fixtures</a></li>
+									<li><a href="fixturedetail.html">fixture detail</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">pro soccer media</a>
+								<ul>
+									<li><a href="soccermedia-1.html">pro soccer media one</a></li>
+									<li><a href="soccermedia-2.html">pro soccer media two</a></li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">Shop</a>
+								<ul>
+									<li><a href="shopgrid.html">shop grid</a></li>
+									<li><a href="shoplist.html">shop list</a></li>
+									<li><a href="productsingle.html">product detail</a></li>
+								</ul>
+							</li>
+							<li><a href="contactus.html">Contact</a></li>
+							<li class="tg-hasdropdown tg-cart">
+								<a href="#"><em data-product-count="4">cart</em></a>
+								<ul class="tg-minicart">
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-04.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-05.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-06.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<figure>
+											<a href="#">
+												<img src="images/shop/thumbs/img-07.jpg" alt="image description">
+											</a>
+										</figure>
+										<div class="tg-productinfo">
+											<a class="tg-btndelete fa fa-close" href="#"></a>
+											<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+											<span>Price: $23</span>
+										</div>
+									</li>
+									<li>
+										<span class="tg-minicarttotal">Price: $23</span>
+										<a class="tg-btn" href="#"><span>checkout</span></a>
+									</li>
+								</ul>
+							</li>
+							<li class="tg-hasdropdown">
+								<a href="#">pages</a>
+								<ul>
+									<li><a href="aboutus.html">about us</a></li>
+									<li><a href="404.html">404</a></li>
+									<li><a href="comming-soon.html">comming soon</a></li>
+								</ul>
+							</li>
 						</ul>
-					</li>
+					</div>
+				</nav>
+				<ul class="tg-socialiconslarge">
+					<li class="tg-facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+					<li class="tg-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li class="tg-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li class="tg-googleplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li class="tg-dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li class="tg-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
 				</ul>
+				<div class="tg-playerbox">
+					<div class="tg-playcontent">
+						<a class="tg-theme-tag" href="#">Player of the week</a>
+						<h3><a href="#">Hustlin’ Owls</a></h3>
+						<span class="tg-stars"><span></span></span>
+						<ul class="tg-socialicons">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
+		<!--************************************
+				SideBar Navigation End
+		*************************************-->
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-haslayout">
+			<button data-product-count="4" id="tg-btnnav" class="tg-btnnav"><span></span></button>
+		</header>
+		<!--************************************
+				Header End
+		*************************************-->
+
+
 		<!--************************************
 				Mobile Menu End
 		*************************************-->
@@ -128,7 +228,7 @@
 					<div class="row">
 						<div class="tg-topbar tg-haslayout">
 							<nav id="tg-topaddnav" class="tg-topaddnav">
-								<div class="navbar-header" >
+								<div class="navbar-header">
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-addnavigationm-mobile">
 										<i class="fa fa-arrow-right"></i>
 									</button>
@@ -140,6 +240,60 @@
 												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li>
 												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
 												<li>
+													<div class="tg-cart">
+														<a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown"
+															data-toggle="dropdown">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+														<div class="tg-cartcontent dropdown-menu" aria-labelledby="tg-cartdropdown">
+															<ul>
+																<li>
+																	<figure>
+																		<a href="#">
+																			<img src="images/thumbnails/img-01.jpg" alt="image description">
+																		</a>
+																	</figure>
+																	<div class="tg-product-detail">
+																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+																		<span class="tg-price">Price: $23</span>
+																		<a class="tg-delete" href="#"></a>
+																	</div>
+																</li>
+																<li>
+																	<figure>
+																		<a href="#">
+																			<img src="images/thumbnails/img-02.jpg" alt="image description">
+																		</a>
+																	</figure>
+																	<div class="tg-product-detail">
+																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+																		<span class="tg-price">Price: $23</span>
+																		<a class="tg-delete" href="#"></a>
+																	</div>
+																</li>
+																<li>
+																	<figure>
+																		<a href="#">
+																			<img src="images/thumbnails/img-03.jpg" alt="image description">
+																		</a>
+																	</figure>
+																	<div class="tg-product-detail">
+																		<h3><a href="#">Smooth 3-Stripes Scarf</a></h3>
+																		<span class="tg-price">Price: $23</span>
+																		<a class="tg-delete" href="#"></a>
+																	</div>
+																</li>
+																<li>
+																	<div class="tg-btnbox">
+																		<strong class="tg-carttotal">Total: $134</strong>
+																		<a class="tg-btn" href="#"><span>checkout</span></a>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+												<li>
 													<a id="tg-btn-search" href="javascript:void(0)"><i class="fa fa-search"></i></a>
 												</li>
 											</ul>
@@ -147,7 +301,7 @@
 									</div>
 									<div class="tg-colhalf">
 										<ul class="tg-socialicons">
-											<li>																							
+											<li>
 												<a href="#">
 													<i class="fa fa-facebook"></i>
 												</a>
@@ -179,20 +333,18 @@
 						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
 							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigationm-mobile">
-									<i class="fa fa-bars"></i>
-								</button>
+								
 								<strong class="tg-logo ">
-									<a href="index-2.html"><img class="floatingLogo" src="images/ArabContrectorsFC.png" alt="image description"></a>
+									<a href="index-2.html"><img class="floatingLogo" src="images/ArabContrectorsFC.png" alt=" "></a>
 								</strong>
 							</div>
 							<div id="tg-navigation" class="tg-navigation">
-								<div class="tg-colhalf ">
+								<div class="tg-colhalf">
                                     <ul>
-                                        <li class="active ">
+                                        <li class="active">
                                             <a href="#" id="Text-Edit" >Main</a>
                                             <ul class="tg-dropdown-menu">
-                                                <li class="active"><a href="index.html">home1</a></li>
+                                                <li class="active"><a href="index-2.html">home1</a></li>
                                                 <li><a href="index2.html">home2</a></li>
                                             </ul>
                                         </li>
@@ -204,12 +356,12 @@
                                                 <li><a href="playerdetail.html">playergrid detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="buyticket.html" id="Text-Edit" >Tickets</a></li>
+                                        <li><a href="buyticket.html" id="Text-Edit" >Buy Tickets</a></li>
                                         <li>
                                             <a href="#" id="Text-Edit" >Match Results</a>
                                             <ul class="tg-dropdown-menu">
                                                 <li><a href="matchresult.html">match result</a></li>
-                                                <li><a href="matchresultdetail.html">match details</a></li>
+                                                <li><a href="matchresultdetail.html">match result detail</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -217,14 +369,14 @@
                                 <div class="tg-colhalf">
                                     <ul>
                                         <li>
-                                            <a href="#"  id="Text-Edit" >News</a>
+                                            <a href="#"  id="Text-Edit" >fixtures</a>
                                             <ul class="tg-dropdown-menu">
-                                                <li><a href="fixtures.html">News</a></li>
-                                                <li><a href="fixturedetail.html">News detail</a></li>
+                                                <li><a href="fixtures.html">fixtures</a></li>
+                                                <li><a href="fixturedetail.html">fixture detail</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#"  id="Text-Edit" >club media</a>
+                                            <a href="#"  id="Text-Edit" >pro soccer media</a>
                                             <ul class="tg-dropdown-menu">
                                                 <li><a href="soccermedia-1.html">pro soccer media1</a></li>
                                                 <li><a href="soccermedia-2.html">pro soccer media2</a></li>
