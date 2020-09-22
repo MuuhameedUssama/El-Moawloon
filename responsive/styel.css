@@ -1,0 +1,40 @@
+@import 'reset.css';
+/*---------------------*/
+body{
+    background-color: #c0392b;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+}
+.col3{
+    font-size: 16px;    
+    float: left;
+    width: 26.77%;
+    padding: 2%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    border: 5px solid rgba(0,0,0,0);
+}
+.col3:hover{
+    border:5px solid wheat;
+    transition: .5s;
+
+}
+img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.l1{
+    background-color: blueviolet;
+}
+.l2{
+    background-color: rgb(167, 102, 17);
+}
+.l3{
+    background-color: coral;
+}
