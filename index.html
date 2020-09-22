@@ -56,11 +56,21 @@
 				Header Start
 		*************************************-->
 		<header id="tg-header" class="tg-header tg-haslayout">
-			<button data-product-count="4" id="tg-btnnav" class="tg-btnnav"><span></span></button>
+			<button style="display: block;" onclick="disapearlogo()" data-product-count="4" id="tg-btnnav" class="tg-btnnav"><span></span></button>
 		</header>
+		<script>
+			function disapearlogo(){
+				if(document.getElementById("clublogo").style.display=="none"){
+					document.getElementById("clublogo").style.display="block";
+				}else{
+					document.getElementById("clublogo").style.display="none";
+				}
+			}
+		</script>
 		<!--************************************
 				Header End
-		*************************************-->
+		***********************
+		**************-->
 		<!--************************************
 				Home Double Slider Start
 		*************************************-->
@@ -271,10 +281,10 @@
 							</nav>
 						</div>
 						<nav id="tg-nav" class="tg-nav brand-center">
-							<div class="navbar-header">
+							<div id="clublogo"  class="navbar-header">
 								
 								<strong class="tg-logo ">
-									<a href="index-2.html"><img id="clublogo"  class="floatingLogo" src="images/ArabContrectorsFC.png" alt=" "></a>
+									<a href="index-2.html"><img class="floatingLogo" src="images/ArabContrectorsFC.png" alt=" "></a>
 								</strong>
 							</div>
 							<div id="tg-navigation" class="tg-navigation">
