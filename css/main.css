@@ -678,6 +678,44 @@ address { font-style: italic; }
 	border: 1px solid #ddd;
 }
 .tg-paddingbottom-zero{ padding-bottom:0 !important;}
+/*============================================
+		News Bar
+===============================================*/
+
+.newsBarColor {
+    background: #e1001c;
+}
+
+.newsBar {
+	box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+    width: 92.5%;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 1px;
+    -webkit-user-select: none;
+    position: relative;
+    left: 50px;
+}
+
+.newsBar span {
+    float: left;
+    color: #fff;
+    padding: 9px;
+    position: relative;
+    top: 1%;
+    box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4);
+    font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.newsBarText{
+
+	box-shadow:none !important;
+    width: 750px;
+}
 /*=============================================
 		Theme Pagination
 =============================================*/
@@ -1757,6 +1795,7 @@ address { font-style: italic; }
 	margin:-20px 0 0;
 	padding:100px 0 80px;
 }
+
 /*=============================================
 			About Us
 =============================================*/

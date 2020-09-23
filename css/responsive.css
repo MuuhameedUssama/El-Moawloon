@@ -894,6 +894,18 @@
 		padding: 0;
 		text-align: center;
 	}
+	.tg-addnavigationm-mobile {
+		border: 0;
+		padding: 10px 0;
+		width: 280px;
+		border-radius: 15px;
+		box-shadow: 5px 4px 6px 1px rgba(121, 107, 107, 0.828);
+		background-image: linear-gradient(rgb(0 207 138), rgb(50 203 0));
+		position: absolute;
+		top: 5px;
+    	left: 70px;
+		z-index: 15;
+	}
 }
 @media (max-width:479px){
 	.tg-testimonial-slider .swiper-slide .tg-contentbox h2 {
@@ -1048,7 +1060,185 @@
 		line-height: 26px;
 	}
 }
+/*-------------------------------------------Width 320----------------------------------------*/
 @media (max-width:320px){
+	.tg-navigation{
+		width: 180px;
+	}
+	.tg-navscrollbar, .tg-sidenav {
+		width: 180px;
+		overflow-y: scroll;
+		position: absolute;
+	}
+	.tg-sidenavshow .tg-btnnav {
+		left: 170px;
+		width:50px;
+		height:50px;
+		z-index:1000;
+		display:block;
+		cursor:pointer;
+		position: relative;;
+		border-radius:50%;
+		background:#1b9f12;
+		border:2px solid #fff;
+		-webkit-transition: all 600ms ease-in-out 0.1s;
+		-moz-transition: all 600ms ease-in-out 0.1s;
+		-ms-transition: all 600ms ease-in-out 0.1s;
+		-o-transition: all 600ms ease-in-out 0.1s;
+		transition: all 600ms ease-in-out 0.1s;
+	}
+	.tg-slider-content h1{
+		font-size: 22px;
+		line-height: 20px;
+		left: 14px;
+		position: relative;
+	}
+	.tg-addnavigationm-mobile {
+		border: 0;
+		padding: 10px 0;
+		width: 180px;
+		border-radius: 15px;
+		box-shadow: 5px 4px 6px 1px rgba(121, 107, 107, 0.828);
+		background-image: linear-gradient(rgb(0 207 138), rgb(50 203 0));
+		position: absolute;
+		top: 5px;
+    	left: 55px;
+		z-index: 15;
+	}
+	.tg-btnbox {
+		margin-top: 10px;
+		margin-left: 15px;
+		width: 250px;
+		float: left;
+		display: grid;
+	}
+	.wrap_match_next .right-triangle{
+		display: none;
+	}
+	.tg-upcomingmatch-counter .tg-contentbox {
+		color: #fff;
+		padding: 10px 0;
+	}
 	.tg-authorpic {margin: 133px 15px -30px 0;}
-	.tg-soccermedia-content2 .tg-project figure figcaption {bottom: -21px;}
+	.tg-soccermedia-content2 .tg-project figure figcaption {bottom: -21px;
+	}
+}
+/*-------------------------------------312 Width--------------------------------*/
+@media (max-width:312px) and (min-width:280px){
+	.tg-navigation{
+		width: 180px;
+	}
+	.tg-navscrollbar, .tg-sidenav {
+		width: 180px;
+		overflow-y: scroll;
+		position: absolute;
+	}
+	.tg-sidenavshow .tg-btnnav {
+		left: 170px;
+		width:50px;
+		height:50px;
+		z-index:1000;
+		display:block;
+		cursor:pointer;
+		position: relative;;
+		border-radius:50%;
+		background:#1b9f12;
+		border:2px solid #fff;
+		-webkit-transition: all 600ms ease-in-out 0.1s;
+		-moz-transition: all 600ms ease-in-out 0.1s;
+		-ms-transition: all 600ms ease-in-out 0.1s;
+		-o-transition: all 600ms ease-in-out 0.1s;
+		transition: all 600ms ease-in-out 0.1s;
+	}
+	.tg-slider-content h1{
+		font-size: 22px;
+		line-height: 20px;
+		left: 14px;
+		position: relative;
+	}
+	.tg-addnavigationm-mobile {
+		border: 0;
+		padding: 10px 0;
+		width: 180px;
+		border-radius: 15px;
+		box-shadow: 5px 4px 6px 1px rgba(121, 107, 107, 0.828);
+		background-image: linear-gradient(rgb(0 207 138), rgb(50 203 0));
+		position: absolute;
+		top: 5px;
+    	left: 55px;
+		z-index: 15;
+	}
+	.tg-btnbox {
+		margin-top: 10px;
+		margin-left: 0;
+		width: 250px;
+		float: left;
+		display: grid;
+	}
+	.wrap_match_next .right-triangle{
+		display: none;
+	}
+	.tg-upcomingmatch-counter .tg-contentbox {
+		color: #fff;
+		padding: 10px 0;
+	}
+}
+@media (max-width:280px) and (min-width:272px){
+	.tg-navigation{
+		width: 180px;
+	}
+	.tg-navscrollbar, .tg-sidenav {
+		width: 180px;
+		overflow-y: scroll;
+		position: absolute;
+	}
+	.tg-sidenavshow .tg-btnnav {
+		left: 170px;
+		width:50px;
+		height:50px;
+		z-index:1000;
+		display:block;
+		cursor:pointer;
+		position: relative;;
+		border-radius:50%;
+		background:#1b9f12;
+		border:2px solid #fff;
+		-webkit-transition: all 600ms ease-in-out 0.1s;
+		-moz-transition: all 600ms ease-in-out 0.1s;
+		-ms-transition: all 600ms ease-in-out 0.1s;
+		-o-transition: all 600ms ease-in-out 0.1s;
+		transition: all 600ms ease-in-out 0.1s;
+	}
+	.tg-slider-content h1{
+		font-size: 17px;
+		line-height: 20px;
+		left: 14px;
+		position: relative;
+	}
+	.tg-addnavigationm-mobile {
+		border: 0;
+		padding: 10px 0;
+		width: 180px;
+		border-radius: 15px;
+		box-shadow: 5px 4px 6px 1px rgba(121, 107, 107, 0.828);
+		background-image: linear-gradient(rgb(0 207 138), rgb(50 203 0));
+		position: absolute;
+		top: 5px;
+    	left: 55px;
+		z-index: 15;
+	}
+	.tg-btnbox {
+		margin-top: 10px;
+		margin-left: 0;
+		width: 250px;
+		float: left;
+		display: grid;
+	}
+	.wrap_match_next .right-triangle{
+		display: none;
+	}
+	.tg-upcomingmatch-counter .tg-contentbox {
+		color: #fff;
+		padding: 10px 0;
+	}
 }
